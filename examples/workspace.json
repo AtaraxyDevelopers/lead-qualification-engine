@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "project": "lead-qualification-engine",
+  "settings": {
+    "currency": "USD",
+    "minimumBudget": 2000,
+    "urgentDays": 30,
+    "budgetWeight": 30,
+    "timingWeight": 20,
+    "authorityWeight": 20,
+    "fitWeight": 30,
+    "qualifiedScore": 70
+  },
+  "records": [
+    {
+      "id": "lead-1",
+      "name": "Maple Studio",
+      "email": "buyer@example.com",
+      "budget": 4000,
+      "daysToBuy": 14,
+      "decisionMaker": true,
+      "fit": true,
+      "consent": true
+    },
+    {
+      "id": "lead-2",
+      "name": "River Foods",
+      "email": "team@example.com",
+      "budget": 1000,
+      "daysToBuy": 90,
+      "decisionMaker": false,
+      "fit": true,
+      "consent": false
+    }
+  ]
+}

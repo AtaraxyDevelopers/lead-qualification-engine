@@ -1,0 +1,27 @@
+{
+  "name": "@ataraxydevelopers/lead-qualification-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Prioritize leads with explainable, adjustable qualification scores.",
+  "license": "MIT",
+  "author": "Ataraxy Developers",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtaraxyDevelopers/lead-qualification-engine.git"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "example": "node scripts/analyze.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:browser": "playwright test",
+    "browser:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@axe-core/playwright": "4.14.0"
+  }
+}
